@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Navbar style */
+.nav-bar{
+    height: 5rem;
+    background-color: rgb(22, 1, 29);
+    color: white;
+    font-size: larger;
+    line-height: 5rem;
+}
+
+/* Choices means rock, paper, scissors container style */
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rock:hover{
+    background-color: #e85e85;
+}
+
+#paper:hover{
+    background-color: #bb6cdf;
+}
+
+#scissors:hover{
+    background-color: #7EACFF;
+    background-color: #4f8bfb;
+}
+
+.choice:hover{
+    /* background-color: rgb(32, 1, 43); */
+    cursor: pointer;
+}
+
+img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Game score board style */
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.score{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#computer-score, #user-score{
+    font-size: 3rem;
+}
+
+/* Winning or Lossing status showing container style */
+
+.game-status-container{
+    margin-top: 4rem;
+}
+
+#msg{
+    background-color: rgb(22, 1, 29);
+    color: white;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    /* color: rgb(35, 0, 188); */
+}
